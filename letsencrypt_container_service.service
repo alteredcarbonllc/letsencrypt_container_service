@@ -1,0 +1,6 @@
+[Unit]
+Description=Update SSL certificates with Certbot
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/update_certs.sh
